@@ -1,0 +1,111 @@
+* Block Type = 96well
+* Chemistry = SYBR_GREEN
+* Experiment File Name = D:\Applied Biosystems\StepOne Software v2.3\experiments\Lardelli\Karissa\KB 20231126 q96 v naglu fam 1 naglu genotyping.eds
+* Experiment Run End Time = 2023-11-26 08:47:52 AM PST
+* Instrument Type = steponeplus
+* Passive Reference = ROX
+
+[Results]
+Well	Sample Name	Target Name	Task	Reporter	Quencher	RQ	RQ Min	RQ Max	Cт	Cт Mean	Cт SD	ΔCт	ΔCт Mean	ΔCт SE	HK Control ΔCт Mean	HK Control ΔCт SE	ΔΔCт	Automatic Ct Threshold	Ct Threshold	Automatic Baseline	Baseline Start	Baseline End	Efficiency	Tm1	Tm2	Tm3	Comments	BADROX	HIGHSD	NOISE	SPIKE	NOSIGNAL	EXPFAIL	MTP
+A1	Sample 1	Target 1	UNKNOWN	SYBR	None				15.4761	16.2346	8.0225							true	17.9943	true	1	2	1	88.2766	81.7266	63.9758		Y	Y	N	N	N	N	Y
+A2	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	23	1	88.2839	81.6176	63.363		Y	N	N	Y	N	N	Y
+A3	Sample 1	Target 1	UNKNOWN	SYBR	None				6.0444	16.2346	8.0225							true	17.9943	true	1	2	1	83.0785	80.0185			Y	Y	N	Y	N	N	Y
+A4	Sample 1	Target 1	UNKNOWN	SYBR	None				9.7842	16.2346	8.0225							true	17.9943	true	1	2	1	80.6066				Y	Y	N	N	N	N	N
+A5	Sample 1	Target 1	UNKNOWN	SYBR	None				8.9627	16.2346	8.0225							true	17.9943	true	1	2	1	88.4616	83.8551	81.5713		Y	Y	N	N	N	N	Y
+A6	Sample 1	Target 1	UNKNOWN	SYBR	None				11.471	16.2346	8.0225							true	17.9943	true	1	2	1	88.4686	81.5009	63.1138		Y	Y	N	N	N	N	Y
+A7	Sample 1	Target 1	UNKNOWN	SYBR	None				11.9533	16.2346	8.0225							true	17.9943	true	1	2	1	80.5781				Y	Y	N	N	N	N	N
+A8	Sample 1	Target 1	UNKNOWN	SYBR	None				12.5529	16.2346	8.0225							true	17.9943	true	1	2	1	83.0631	80.0818			Y	Y	N	N	N	N	Y
+A9	Sample 1	Target 1	UNKNOWN	SYBR	None				22.3963	16.2346	8.0225							true	17.9943	true	3	12	1	83.2216	79.9704			Y	Y	N	Y	N	N	Y
+A10	Sample 1	Target 1	UNKNOWN	SYBR	None				11.4252	16.2346	8.0225							true	17.9943	true	1	2	1	80.8677				Y	Y	N	N	N	N	N
+A11	Sample 1	Target 1	UNKNOWN	SYBR	None				4.2972	16.2346	8.0225							true	17.9943	true	1	2	1	80.2844				Y	Y	N	Y	N	N	N
+A12	Sample 1	Target 1	UNKNOWN	SYBR	None				20.1847	16.2346	8.0225							true	17.9943	true	1	2	1	83.0008				Y	Y	N	N	N	N	N
+B1	Sample 1	Target 1	UNKNOWN	SYBR	None				8.8975	16.2346	8.0225							true	17.9943	true	1	2	1	82.7735	79.6341			Y	Y	N	Y	N	N	Y
+B2	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	8	1	83.0125				Y	N	N	Y	N	N	N
+B3	Sample 1	Target 1	UNKNOWN	SYBR	None				11.0437	16.2346	8.0225							true	17.9943	true	1	2	1	82.924				Y	Y	N	Y	N	N	N
+B4	Sample 1	Target 1	UNKNOWN	SYBR	None				28.3602	16.2346	8.0225							true	17.9943	true	3	24	1	80.6062				Y	Y	N	Y	N	N	N
+B5	Sample 1	Target 1	UNKNOWN	SYBR	None				6.5222	16.2346	8.0225							true	17.9943	true	1	2	1	83.1975				Y	Y	N	Y	N	N	N
+B6	Sample 1	Target 1	UNKNOWN	SYBR	None				27.4826	16.2346	8.0225							true	17.9943	true	3	14	1	83.3198	80.2617			Y	Y	N	Y	N	N	Y
+B7	Sample 1	Target 1	UNKNOWN	SYBR	None				13.4544	16.2346	8.0225							true	17.9943	true	3	11	1	82.9404				Y	Y	N	Y	N	N	N
+B8	Sample 1	Target 1	UNKNOWN	SYBR	None				26.1942	16.2346	8.0225							true	17.9943	true	3	17	1	80.7396				Y	Y	N	N	N	N	N
+B9	Sample 1	Target 1	UNKNOWN	SYBR	None				26.2266	16.2346	8.0225							true	17.9943	true	3	7	1	82.8737				Y	Y	N	Y	N	N	N
+B10	Sample 1	Target 1	UNKNOWN	SYBR	None				19.8584	16.2346	8.0225							true	17.9943	true	1	3	1	80.6351				Y	Y	N	N	N	N	N
+B11	Sample 1	Target 1	UNKNOWN	SYBR	None				29.4621	16.2346	8.0225							true	17.9943	true	3	22	1	82.5682	67.3583			N	Y	N	Y	N	N	Y
+B12	Sample 1	Target 1	UNKNOWN	SYBR	None				17.6992	16.2346	8.0225							true	17.9943	true	1	3	1	83.1165	80.1751			Y	Y	N	Y	N	N	Y
+C1	Sample 1	Target 1	UNKNOWN	SYBR	None				26.6756	16.2346	8.0225							true	17.9943	true	3	20	1	83.0838	74.0921			Y	Y	N	Y	N	N	Y
+C2	Sample 1	Target 1	UNKNOWN	SYBR	None				9.9512	16.2346	8.0225							true	17.9943	true	1	2	1	83.2448	80.2605			Y	Y	Y	Y	N	N	Y
+C3	Sample 1	Target 1	UNKNOWN	SYBR	None				15.2739	16.2346	8.0225							true	17.9943	true	1	2	1	83.0792	80.0579			Y	Y	N	N	N	N	Y
+C4	Sample 1	Target 1	UNKNOWN	SYBR	None				25.1818	16.2346	8.0225							true	17.9943	true	3	19	1	82.8913				Y	Y	N	Y	N	N	N
+C5	Sample 1	Target 1	UNKNOWN	SYBR	None				28.9017	16.2346	8.0225							true	17.9943	true	3	21	1	83.3139	80.4494			Y	Y	N	Y	N	N	Y
+C6	Sample 1	Target 1	UNKNOWN	SYBR	None				11.9144	16.2346	8.0225							true	17.9943	true	1	2	1	83.3583	80.6099	88.5841		Y	Y	N	N	N	N	Y
+C7	Sample 1	Target 1	UNKNOWN	SYBR	None				23.229	16.2346	8.0225							true	17.9943	true	3	16	1	80.7724				Y	Y	N	Y	N	N	N
+C8	Sample 1	Target 1	UNKNOWN	SYBR	None				10.0597	16.2346	8.0225							true	17.9943	true	1	2	1	83.1399	80.3521	65.91		Y	Y	N	N	N	N	Y
+C9	Sample 1	Target 1	UNKNOWN	SYBR	None				7.3082	16.2346	8.0225							true	17.9943	true	1	2	1	83.3384	79.9324			Y	Y	Y	Y	N	N	Y
+C10	Sample 1	Target 1	UNKNOWN	SYBR	None				24.4941	16.2346	8.0225							true	17.9943	true	3	13	1	82.9184	66.4691			Y	Y	N	N	N	N	Y
+C11	Sample 1	Target 1	UNKNOWN	SYBR	None				3.7546	16.2346	8.0225							true	17.9943	true	1	2	1	83.1103	80.0141			Y	Y	N	Y	N	N	Y
+C12	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	26	1	83.2711				Y	N	N	Y	N	N	N
+D1	Sample 1	Target 1	UNKNOWN	SYBR	None				17.6862	16.2346	8.0225							true	17.9943	true	1	2	1	80.8361				Y	Y	N	N	N	N	N
+D2	Sample 1	Target 1	UNKNOWN	SYBR	None				26.1386	16.2346	8.0225							true	17.9943	true	3	10	1	83.2058	80.2602			Y	Y	N	Y	N	N	Y
+D3	Sample 1	Target 1	UNKNOWN	SYBR	None				10.726	16.2346	8.0225							true	17.9943	true	1	2	1	83.0407	80.0582			Y	Y	N	N	N	N	Y
+D4	Sample 1	Target 1	UNKNOWN	SYBR	None				10.326	16.2346	8.0225							true	17.9943	true	1	2	1	83.0072				Y	Y	N	N	N	N	N
+D5	Sample 1	Target 1	UNKNOWN	SYBR	None				27.6798	16.2346	8.0225							true	17.9943	true	3	21	1	83.2754	80.3722			Y	Y	N	Y	N	N	Y
+D6	Sample 1	Target 1	UNKNOWN	SYBR	None				24.4187	16.2346	8.0225							true	17.9943	true	3	12	1	83.1258	79.8742	66.3645		Y	Y	N	Y	N	N	Y
+D7	Sample 1	Target 1	UNKNOWN	SYBR	None				12.9966	16.2346	8.0225							true	17.9943	true	1	2	1	80.6177				Y	Y	N	N	N	N	N
+D8	Sample 1	Target 1	UNKNOWN	SYBR	None				9.6787	16.2346	8.0225							true	17.9943	true	1	2	1	82.9848				Y	Y	N	Y	N	N	N
+D9	Sample 1	Target 1	UNKNOWN	SYBR	None				13.2205	16.2346	8.0225							true	17.9943	true	1	2	1	80.7454				Y	Y	N	Y	N	N	N
+D10	Sample 1	Target 1	UNKNOWN	SYBR	None				5.5253	16.2346	8.0225							true	17.9943	true	1	2	1	82.802				Y	Y	N	Y	N	N	N
+D11	Sample 1	Target 1	UNKNOWN	SYBR	None				6.9298	16.2346	8.0225							true	17.9943	true	3	6	1	82.6074	79.7435	74.9057		Y	Y	N	Y	N	N	Y
+D12	Sample 1	Target 1	UNKNOWN	SYBR	None				22.0124	16.2346	8.0225							true	17.9943	true	3	15	1	82.8838	79.9424			Y	Y	N	Y	N	N	Y
+E1	Sample 1	Target 1	UNKNOWN	SYBR	None				24.3415	16.2346	8.0225							true	17.9943	true	3	12	1	82.8517	79.9062			Y	Y	N	Y	N	N	Y
+E2	Sample 1	Target 1	UNKNOWN	SYBR	None				8.4687	16.2346	8.0225							true	17.9943	true	1	2	1	83.0505	79.9887			Y	Y	N	Y	N	N	Y
+E3	Sample 1	Target 1	UNKNOWN	SYBR	None				16.7104	16.2346	8.0225							true	17.9943	true	1	2	1	83.0409	79.8647			Y	Y	N	Y	N	N	Y
+E4	Sample 1	Target 1	UNKNOWN	SYBR	None				18.6396	16.2346	8.0225							true	17.9943	true	1	2	1	82.9295				Y	Y	N	N	N	N	N
+E5	Sample 1	Target 1	UNKNOWN	SYBR	None				17.5819	16.2346	8.0225							true	17.9943	true	1	2	1	81.1079	88.8499			Y	Y	N	N	N	N	Y
+E6	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	30	1	83.0481	72.5578			Y	N	N	Y	N	N	Y
+E7	Sample 1	Target 1	UNKNOWN	SYBR	None				6.2131	16.2346	8.0225							true	17.9943	true	1	2	1	81.1213	88.0133			Y	Y	N	N	N	N	Y
+E8	Sample 1	Target 1	UNKNOWN	SYBR	None				9.1862	16.2346	8.0225							true	17.9943	true	1	2	1	83.3717	80.7001	88.1729		Y	Y	N	N	N	N	Y
+E9	Sample 1	Target 1	UNKNOWN	SYBR	None				6.1716	16.2346	8.0225							true	17.9943	true	1	2	1	83.2227				Y	Y	N	Y	N	N	N
+E10	Sample 1	Target 1	UNKNOWN	SYBR	None				1.7966	16.2346	8.0225							true	17.9943	true	3	12	1	83.034				Y	Y	N	Y	N	N	N
+E11	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	28	1	82.6851				Y	N	N	Y	N	N	N
+E12	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	17	1	82.6127	79.9809	87.2569		N	N	N	Y	N	N	Y
+F1	Sample 1	Target 1	UNKNOWN	SYBR	None				17.5913	16.2346	8.0225							true	17.9943	true	1	2	1	80.6041				Y	Y	N	N	N	N	N
+F2	Sample 1	Target 1	UNKNOWN	SYBR	None				23.5722	16.2346	8.0225							true	17.9943	true	3	15	1	82.5077	79.5621	75.0275		Y	Y	N	Y	N	N	Y
+F3	Sample 1	Target 1	UNKNOWN	SYBR	None				23.6433	16.2346	8.0225							true	17.9943	true	3	6	1	80.2911				Y	Y	N	Y	N	N	N
+F4	Sample 1	Target 1	UNKNOWN	SYBR	None				26.4765	16.2346	8.0225							true	17.9943	true	3	21	1	80.7214				Y	Y	N	Y	N	N	N
+F5	Sample 1	Target 1	UNKNOWN	SYBR	None				24.2459	16.2346	8.0225							true	17.9943	true	3	15	1	82.7727				Y	Y	N	Y	N	N	N
+F6	Sample 1	Target 1	UNKNOWN	SYBR	None				15.6461	16.2346	8.0225							true	17.9943	true	1	2	1	80.8414				Y	Y	N	Y	N	N	N
+F7	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	29	1	82.9414	79.8438			Y	N	N	Y	N	N	Y
+F8	Sample 1	Target 1	UNKNOWN	SYBR	None				9.8645	16.2346	8.0225							true	17.9943	true	1	2	1	80.3514				Y	Y	N	Y	N	N	N
+F9	Sample 1	Target 1	UNKNOWN	SYBR	None				33.4677	16.2346	8.0225							true	17.9943	true	3	19	1	80.475	87.7514			N	Y	N	Y	N	N	Y
+F10	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	29	1	83.0338				Y	N	N	Y	N	N	N
+F11	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	23	1	82.9562	79.8988			Y	N	N	Y	N	N	Y
+F12	Sample 1	Target 1	UNKNOWN	SYBR	None				15.3288	16.2346	8.0225							true	17.9943	true	1	2	1	82.6124	79.8645	75.0655		Y	Y	N	N	N	N	Y
+G1	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	33	1	84.7901	88.2395	89.751		Y	N	N	N	Y	Y	Y
+G2	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	32	1	77.4302	63.5939	89.91		Y	N	N	N	Y	Y	Y
+G3	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	33	1	69.7556	78.742	74.1326		Y	N	N	N	Y	Y	Y
+G4	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	28	1	78.5908	74.9885	60.6957		Y	N	N	N	Y	N	Y
+G5	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	33	1	76.8116	93.302	88.3858		Y	N	N	N	Y	Y	Y
+G6	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	32	1	76.8154	65.0863	89.7057		Y	N	N	N	Y	Y	Y
+G7	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	24	1	63.8532	76.6304	83.7547		Y	N	N	N	Y	N	Y
+G8	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	15	1	64.9023	76.6341	71.1748		Y	N	N	N	Y	N	Y
+G9	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	34	1	91.8156	82.7975	73.5085		Y	N	N	N	Y	Y	Y
+G10	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	34	1	76.5699	71.2674	82.6852		Y	N	N	Y	N	Y	Y
+G11	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	11	1	87.6781	66.5468	68.4819		Y	N	N	N	Y	N	Y
+G12	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	34	1	66.5895	82.4186	78.9741		Y	N	N	N	Y	Y	Y
+H1	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	34	1	83.3564	74.3259	73.1632		Y	N	N	N	Y	Y	Y
+H2	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	34	1	86.3828	66.5391	72.8178		Y	N	N	Y	Y	Y	Y
+H3	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	31	1	89.8202	80.524	66.5023		Y	N	N	N	Y	Y	Y
+H4	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	9	1	83.1999	64.2202	85.2915		Y	N	N	N	Y	N	Y
+H5	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	32	1	68.5281	92.0636	62.1022		Y	N	N	N	Y	Y	Y
+H6	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	34	1	87.3441	64.0409	81.3828		Y	N	N	Y	Y	Y	Y
+H7	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	21	1	93.0863	88.0915	90.4921		Y	N	N	N	Y	N	Y
+H8	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	34	1	90.8437	83.2548	70.555		Y	N	N	N	Y	Y	Y
+H9	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	34	1	88.7582	86.9004	85.8167		N	N	N	N	N	Y	Y
+H10	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	14	1	62.6361	86.2844	87.91		Y	N	N	N	Y	N	Y
+H11	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	34	1	92.1679	62.6381	72.0041		Y	N	N	N	Y	Y	Y
+H12	Sample 1	Target 1	UNKNOWN	SYBR	None				Undetermined	16.2346	8.0225							true	17.9943	true	3	26	1	68.3308	93.1001	80.5993		Y	N	N	N	Y	N	Y
+
+Analysis Type = Singleplex
+Endogenous Control = Target 1
+RQ Min/Max Confidence Level = 95.0
+Reference Sample = Sample 1
+

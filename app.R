@@ -123,7 +123,7 @@ server <- function(input, output, session) {
     files <- input$files
 
     # check whether I am importing the right thing
-    print(files)
+    # print(files)
 
     # Read and process the files using your existing code
     data <- read_delim(
@@ -179,17 +179,6 @@ server <- function(input, output, session) {
             position = `Well Location`,
             Reading,
             fluor
-          )
-      ) %>%
-      left_join(
-        read_delim(
-          files %>%
-            dplyr::filter(grepl(name, pattern = "result")) %>%
-            .$datapath,
-          skip = 8) %>%
-          dplyr::select(
-            position = Well,
-            Tm1, Tm2, Tm3
           )
       )
   })
