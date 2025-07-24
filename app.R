@@ -37,7 +37,7 @@ ui <- fluidPage(
              # mut temp min
              numericInput(inputId = "mut_temp_min",
                           label = "Mutant peak min temp",
-                          value = 80.2,
+                          value = 65,
                           min = 60,
                           max = 100),
 
@@ -45,21 +45,21 @@ ui <- fluidPage(
              numericInput(inputId = "mut_temp_max",
                           label = "Mutant peak max temp",
                           value = 81.9,
-                          min = 60,
+                          min = 70,
                           max = 100),
 
              # wt temp min
              numericInput(inputId = "wt_temp_min",
                           label = "wt peak min temp",
                           value = 82.8,
-                          min = 60,
+                          min = 71,
                           max = 100),
 
              # wt temp max
              numericInput(inputId = "wt_temp_max",
                           label = "wt peak max temp",
                           value = 84.5,
-                          min = 60,
+                          min = 73,
                           max = 100),
 
              # mut deriv min
@@ -67,28 +67,28 @@ ui <- fluidPage(
                           label = "Mutant peak min deriv",
                           value = 27000,
                           min = 0,
-                          max = 500000),
+                          max = 10000),
 
              # mut deriv max
              numericInput(inputId = "mut_deriv_max",
                           label = "Mutant peak max deriv",
-                          value = 110000,
+                          value = 11000,
                           min = 0,
-                          max = 500000),
+                          max = 50000),
 
              # wt deriv min
              numericInput(inputId = "wt_deriv_min",
                           label = "wt peak min deriv",
                           value = 40000,
                           min = 0,
-                          max = 500000),
+                          max = 10000),
 
              # wt deriv max
              numericInput(inputId = "wt_deriv_max",
                           label = "wt peak max deriv",
-                          value = 135000,
+                          value = 13500,
                           min = 0,
-                          max = 500000)
+                          max = 50000)
                ),
 
              mainPanel(plotOutput("myPlot", width = "100%")))),
@@ -123,7 +123,7 @@ server <- function(input, output, session) {
     files <- input$files
 
     # check whether I am importing the right thing
-    # print(files)
+    print(files)
 
     # Read and process the files using your existing code
     data <- read_delim(
@@ -161,25 +161,6 @@ server <- function(input, output, session) {
             Reading,
             temp
           )
-      ) %>%
-      left_join(
-        read_delim(
-          files %>%
-            dplyr::filter(grepl(name, pattern = "normal")) %>%
-            .$datapath,
-          delim = "\t",
-          skip = 8
-        ) %>%
-          pivot_longer(
-            names_to = "Reading",
-            values_to = "fluor",
-            starts_with("Reading")
-          ) %>%
-          dplyr::select(
-            position = `Well Location`,
-            Reading,
-            fluor
-          )
       )
   })
 
@@ -205,10 +186,16 @@ server <- function(input, output, session) {
     ggp <- data %>%
       ggplot(aes(x = temp, y = deriv)) +
       geom_line(aes(group = position)) +
-      scale_y_continuous(labels = comma,
-                         breaks = seq(0, 500000, by = 25000)) +
-      scale_x_continuous(limits = c(78, 87),
-                         breaks = seq(1:90)) +
+
+      # adjust the labels. and breaks as necessary
+      scale_y_continuous(
+        labels = comma,
+        breaks = seq(0, 50000, by = 2500)
+        ) +
+      scale_x_continuous(
+        limits = c(66, 76),
+        breaks = 66:76
+        ) +
       # mut allele
       annotate(
         geom = "rect",
@@ -302,10 +289,13 @@ server <- function(input, output, session) {
       geom_line(
         aes(group = position)
       ) +
-      scale_y_continuous(labels = comma) +
-      scale_x_continuous( # zoom into region of interest.
-        limits = c(78, 87),
-        breaks = 1:90
+      scale_y_continuous(
+        labels = comma,
+        breaks = seq(0, 50000, by = 2500)
+      ) +
+      scale_x_continuous(
+        limits = c(66, 76),
+        breaks = 66:76
       ) +
       scale_color_manual(
         values = c("darkgreen", "red", "darkred","grey50")
